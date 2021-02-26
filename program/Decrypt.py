@@ -153,9 +153,6 @@ def insert_spaces(s):
     return " ".join(reversed(out))
 
 def main():
-    '''When you run the 4th cipher text, you will notice that the letter 'x' and 'v' have been misplaced,
-        which I could not figure out how to fix it. '''
-
     ctext = input("Enter your cipher text : ")
     a = sub_cipher_attack(ctext)
     result = a.attack_funtion()
